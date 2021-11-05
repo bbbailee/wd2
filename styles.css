@@ -19,91 +19,17 @@ html {
         align-items: center;
         transform: translateY(-100%);
     }
-    button {
+    .menubtn {
         display: block;
     }
-    #turtle {
-        border-radius: 20px;
-        width: 50vw;
-        height: 30vh;
-        display: flex;
-        margin-left: -1400px;
-        /* position: absolute; */
-        margin-right: 10px;
-        overflow: hidden;
-        align-self: flex-start;
-        margin-top: 300px;
-        filter: drop-shadow(2px 2px 8px rgb(0 0 0 / 0.6))
     
-    }
-    #text2 {
-        display: flex;
-        float: left;
-        flex-direction: column;
-        margin-left: 10px;
-        margin-top: 400px;
-        align-self: flex-start;
-        position: absolute;
-        overflow: hidden;
-        margin-right: -2000px;
-    }
-    #pollution {
-        text-align: left;
-        font-weight: bold;
-        font-size: 30px;
-        font-family: 'Arial';
-        color: #223138;
-    }
-    #pollutiontext {
-        text-align: left;
-        font-size: 22px;
-        width: 400px;
-        font-family: 'Arial';
-        color: #223138;
-        overflow: hidden ;
-    }
-    #turtle {
-    
-        border-radius: 20px;
-        width: 500px;
-        height: 350px;
-        margin-left: -1400px;
-        position: absolute;
-        margin-right: 10px;
-        overflow: hidden;
-        align-self: flex-start;
-        margin-top: 300px;
-        filter: drop-shadow(2px 2px 8px rgb(0 0 0 / 0.6))
-    
-    }
-    #text2 {
-        display: flex;
-        float: left;
-        flex-direction: column;
-        margin-left: 10px;
-        margin-top: 400px;
-        align-self: flex-start;
-        position: absolute;
-        overflow: hidden;
-        margin-right: -2000px;
-    }
-    #pollution {
-        text-align: left;
-        font-weight: bold;
-        font-size: 30px;
-        font-family: 'Arial';
-        color: #223138;
-    }
-    #pollutiontext {
-        text-align: left;
-        font-size: 22px;
-        width: 400px;
-        font-family: 'Arial';
-        color: #223138;
-        overflow: hidden ;
-    }
 }
-
+.menubtn{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: none;
+}
 body {
     padding: 0;
     margin:0; 
@@ -125,11 +51,7 @@ body {
     left: 0;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-/* .menuactive {
-    color: #faefdd;
- } */ 
+} 
 #causesdropdown{
     display: none;
     position: absolute;
@@ -199,12 +121,7 @@ body {
     flex-direction: row;
     position: relative;
 }
-.menubtn{
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-}
+
 #startbtn {
     position: absolute; 
     display: inline-flex;
@@ -324,7 +241,7 @@ sl-button#startbtn::part(base){
 /* lightblue */
 #bubble2 {
     width: 60px;
-    right: -100px;
+    right: -350px;
     align-self: flex-start;
     margin-top: 100px;
     justify-content: left;
@@ -413,8 +330,8 @@ sl-button#startbtn::part(base){
 /* red */
 #star2 {
     width: 100px;
-    left: 50px;
-    margin-left: -200px;
+    left: 100px;
+    margin-left: -400px;
     align-self: flex-start;
     margin-top: 200px;
     overflow: hidden ;
@@ -772,18 +689,18 @@ sl-button#startbtn::part(base){
     height: 100vh;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 #timer7{
     height: 100px;
     width: 100px;
-    justify-self: flex-start;
     position: absolute;
-    left: 50px;
+    left: 0;
+    top: 10%;
 }
 #items {
     display: flex;
     align-self: center;
-    /* position: relative; */
 }
 #s7 h1 {
     font-family: 'DM Serif Text';
@@ -1201,7 +1118,7 @@ sl-button#startbtn::part(base){
     visibility: hidden;
     color: #223138;
     font-family: 'Arial';
-    font-size: 20px;
+    font-size: 1vw;
     /* align-items: center; */
 }
 #fact1, #fact2, #fact3, #fact4, #fact5, #fact6, #fact7, #fact8 {
@@ -1237,7 +1154,7 @@ sl-button#startbtn::part(base){
 #timer9 {
     width: 70vh;
     position: absolute;
-    padding-top: 20px;
+    padding-top: 220px;
     justify-content: center;
 }
 #backtotop {
