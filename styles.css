@@ -324,7 +324,7 @@ sl-button#startbtn::part(base){
 /* lightblue */
 #bubble2 {
     width: 60px;
-    right: -200px;
+    right: -100px;
     align-self: flex-start;
     margin-top: 100px;
     justify-content: left;
@@ -413,7 +413,7 @@ sl-button#startbtn::part(base){
 /* red */
 #star2 {
     width: 100px;
-    left: 100px;
+    left: 50px;
     margin-left: -200px;
     align-self: flex-start;
     margin-top: 200px;
@@ -1192,7 +1192,7 @@ sl-button#startbtn::part(base){
 }
 #facts, #facts2 {
     display: flex;
-    height: 80vh;
+    height: 40%;
     justify-content: space-around;
 }
 #facts p, #facts2 p{
@@ -1237,7 +1237,7 @@ sl-button#startbtn::part(base){
 #timer9 {
     width: 70vh;
     position: absolute;
-    padding-top: 220px;
+    padding-top: 20px;
     justify-content: center;
 }
 #backtotop {
