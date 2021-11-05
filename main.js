@@ -187,11 +187,7 @@ popUpBox4.addEventListener("click", function (){
 xOut4.addEventListener("click", function (){
   helpPopUp4.style.visibility = "hidden";
 })
-// when xout4 is clicked, the video pauses 
-xOut4.addEventListener('click', function(){
-  let video = document.getElementById ('fishvid')
-  video. isPlaying = false; 
-})
+
 // display facts 
 
 let factBox1 = document.querySelector ('#fact1')
