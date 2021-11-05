@@ -357,13 +357,7 @@ sl-button#startbtn::part(base){
     justify-content: center;
     overflow: hidden;
 }
-/* #overfishingcause {
-    padding-top: 20px;
-    display: block;   */
-    /* align-self: center; */
-    /* margin: auto; */
-    /* border: hotpink 2px solid;
-} */
+
 #overfish {
     text-align: left;
     font-weight: bold;
@@ -371,7 +365,6 @@ sl-button#startbtn::part(base){
     font-family: 'Arial';
     color: #faefdd;
     overflow: hidden;
-    /* border: hotpink 2px solid; */
 }
 #text4 {
     display: flex;
@@ -394,7 +387,7 @@ sl-button#startbtn::part(base){
     border-radius: 20px;
     width: 500px;
     height: 350px;
-    margin-left: -1400px; /*+ 300px */
+    margin-left: -1400px; 
     margin-right: 10px;
     overflow: hidden;
     align-self: center;
@@ -405,7 +398,6 @@ sl-button#startbtn::part(base){
     display: flex;
     margin-right: -1800px;
     overflow: hidden;
-    /* margin-bottom: 10%; */
     right: 0;
     margin-top: 20%;
     position: absolute;
@@ -541,7 +533,6 @@ sl-button#startbtn::part(base){
 #bubble5 {
     width: 60px;
     right: -200px;
-    /* right: 20px; */
     align-self: flex-start;
     margin-top: 100px;
     justify-content: left;
@@ -565,7 +556,6 @@ sl-button#startbtn::part(base){
 }
 #s6 h1{
     padding-top: 100px;
-    /* margin-bottom: 100px; */
     font-family: 'DM Serif Text';
     text-shadow: 2px 2px 2px rgb(189, 187, 187);
     color: #223138;
@@ -609,7 +599,6 @@ sl-button#startbtn::part(base){
 }
 .swiper {
     display: flex;
-    /* justify-content: center; */
     height: 50vh;
     align-self: center;
 }
@@ -866,7 +855,6 @@ sl-button#startbtn::part(base){
     width: 36%;
     height: 50%;
     right: 10%;
-    /* overflow: auto; */
 }
 #popup1 img {
     border-radius: 20px;
@@ -997,16 +985,6 @@ sl-button#startbtn::part(base){
     position: absolute;
     align-self: center;
 }
-/* #imgcomparer {
-    width: 70%;
-    height: 80%;
-    margin: auto;
-}
-#imgcomparer img{
-    width: 350px;
-    height: 400px;
-    margin: auto;
-} */
 #popup4 {
     border-radius: 20px;
     background-color: rgba(55, 189, 252, 0.2);
@@ -1064,7 +1042,6 @@ sl-button#startbtn::part(base){
     width: 130px;
     position: absolute;
     left: 10%;
-    /* margin-top: 10%; */
 }
 #lightbluebubbleoutline{
     width: 100px;
@@ -1096,7 +1073,6 @@ sl-button#startbtn::part(base){
     width: 100vw;
     display: flex;
     flex-direction: column;
-    /* position: absolute; */
     z-index: 1;
 }
 #s8 h1 {
@@ -1119,7 +1095,6 @@ sl-button#startbtn::part(base){
     color: #223138;
     font-family: 'Arial';
     font-size: 1vw;
-    /* align-items: center; */
 }
 #fact1, #fact2, #fact3, #fact4, #fact5, #fact6, #fact7, #fact8 {
     border-radius: 20px;
@@ -1136,7 +1111,7 @@ sl-button#startbtn::part(base){
     background-color: rgba(78, 193, 235, 0.637);
     visibility: visible;
 }
-/*  */
+
 #s9 {
     height: 100vh;
     justify-content: center;
@@ -1159,7 +1134,6 @@ sl-button#startbtn::part(base){
 }
 #backtotop {
     position: fixed;
-    /* margin-bottom: 20px; */
     top: 90%;
     right: 50px;
 }
@@ -1167,33 +1141,3 @@ sl-button.topbtn::part(base){
     background-color: #faefdd;
     border: 2px solid #68bad8;
 }
-/* #susfisheries p:hover {
-    display: none;
-} */
-
-/* Lightbox */
-/* .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 100vh;
-} 
-.gallery-item {
-    width: 22%;
-    height: 40%;
-    margin: 1%;
-    border-radius: 20px 20px;
-    overflow: hidden;
-}
-.gallery-item img {
-    display: block;
-    transition: all 3s ease;
-    opacity: 0.8;
-    
-    
-}
-.gallery-item img:hover  {
-    transform: scale(1.1);
-    opacity: 1;
-} */
-
