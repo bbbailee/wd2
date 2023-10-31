@@ -281,7 +281,7 @@ factBox8.addEventListener("mouseout", function (){
   })
 
   gsap.to("#bubble2", {
-    x: -600,
+    x: -400,
     scrollTrigger: {
       trigger: "#s1",
       start: "center",
@@ -339,7 +339,7 @@ factBox8.addEventListener("mouseout", function (){
     }
   })
   gsap.to("#turtle", {
-    x: '1200' ,
+    x: '1000' ,
     scrollTrigger: {
       trigger: "#s1",
       start: "center",
@@ -350,7 +350,7 @@ factBox8.addEventListener("mouseout", function (){
     }
   })
   gsap.to("#text2", {
-    x: -700,
+    x: -1200,
     scrollTrigger: {
       trigger: "#s1",
       start: "center",
@@ -421,7 +421,7 @@ gsap.to("#text3", {
   })
 // section 4 img 
   gsap.to("#fishingimg", {
-    x: 1200,
+    x: 1000,
     scrollTrigger: {
       trigger: "#s3",
       start: "center",
@@ -434,7 +434,7 @@ gsap.to("#text3", {
 
   // section 4 text 
   gsap.to("#text4", {
-    x: -1000,
+    x: -1500,
     scrollTrigger: {
       trigger: "#s3",
       start: "center",
